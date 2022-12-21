@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500;600;700&display=swap');
+
+:root{
+  --white:#ffffff;
+  --black:#000000;
+  --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1)
+}
+
+*{
+
+   font-family: 'Nunito', 'sans-serif';
+   margin: 0;<h1>EP 1 VOSTFR </h1>
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   outline: none;
+   border: none;
+   text-transform: capitalize;
+   transition: all .2s linear;  
+
+
+}
+
+html{
+	font-size: 62.5%;
+	overflow-x: hidden;
+	scroll-padding-top:5.5rem;
+
+}
+
+header{
+position: fixed;
+top: 0  ;
+left:0;
+right:0;
+background: var(--black);
+padding: 1rem 7%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 10000;
+}
